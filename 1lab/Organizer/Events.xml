@@ -2,7 +2,7 @@
 
 <eventlist>
 <event>
-	<marker>true/false</marker>
+	<marker>Состояние</marker>
 	<name>Название</name>
 	<descriptoin>Описание</descriptoin>
 	<datetime>Дата и время</datetime>
