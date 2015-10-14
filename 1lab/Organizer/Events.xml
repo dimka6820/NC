@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<eventlist>
+<event>
+	<marker>true/false</marker>
+	<name>Название</name>
+	<descriptoin>Описание</descriptoin>
+	<datetime>Дата и время</datetime>
+	<contacts>Контакты</contacts>
+</event>
+</eventlist>
