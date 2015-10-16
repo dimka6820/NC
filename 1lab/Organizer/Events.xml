@@ -2,7 +2,8 @@
 
 <eventlist>
 <event>
-	<marker>Состояние</marker>
+	<id>1</id>
+	<status>Состояние</status>
 	<name>Название</name>
 	<descriptoin>Описание</descriptoin>
 	<datetime>Дата и время</datetime>
