@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d32cb5ef-92be-4add-9099-45d06f186975" name="Default" comment="project hierarchy">
-      <change type="MOVED" beforePath="C:\Users\Дмитрий\Documents\GitHub\NC\1lab\Organizer\src\ru\dima\controllers\WorkWithXmlController.java" afterPath="$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlAdapter.java" />
+    <list default="true" id="d32cb5ef-92be-4add-9099-45d06f186975" name="Default" comment="">
+      <change type="MOVED" beforePath="C:\Users\Дмитрий\Documents\GitHub\NC\1lab\Organizer\src\ru\dima\controllers\WorkWithXmlAdapter.java" afterPath="$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Events.xml" afterPath="$PROJECT_DIR$/Events.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dima/model/Task.java" afterPath="$PROJECT_DIR$/src/ru/dima/model/Task.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Organizer.iws" />
@@ -40,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/Events.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.6666665">
-              <caret line="9" column="15" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
+              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -60,11 +62,37 @@
         <entry file="file://$PROJECT_DIR$/src/ru/dima/model/Task.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#674#675#0" expanded="true" />
+                <element signature="e#707#708#0" expanded="true" />
+                <element signature="e#735#736#0" expanded="true" />
+                <element signature="e#768#769#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#841#842#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#908#909#0" expanded="true" />
+                <element signature="e#935#936#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+                <element signature="e#1079#1080#0" expanded="true" />
+                <element signature="e#1133#1134#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1213#1214#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1335#1336#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1397#1398#0" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1479#1480#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1545#1546#0" expanded="true" />
+                <element signature="e#1593#1594#0" expanded="true" />
+                <element signature="e#1633#1634#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,11 +112,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.704">
+              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#598#604#0" expanded="true" />
@@ -97,17 +125,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="WorkWithXmlAdapter.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlAdapter.java">
+      <file leaf-file-name="WorkWithXmlController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66579634">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#272#278#0" expanded="true" />
-                <element signature="method#addNewTask#0;class#WorkWithXmlAdapter#0" expanded="false" />
-                <element signature="method#deleteTask#0;class#WorkWithXmlAdapter#0" expanded="false" />
-                <element signature="method#editTask#0;class#WorkWithXmlAdapter#0" expanded="false" />
+                <element signature="e#275#281#0" expanded="true" />
+                <element signature="method#addNewTask#0;class#WorkWithXmlController#0" expanded="false" />
+                <element signature="method#deleteTask#0;class#WorkWithXmlController#0" expanded="false" />
+                <element signature="method#editTask#0;class#WorkWithXmlController#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -141,7 +169,6 @@
         <option value="$PROJECT_DIR$/Events.tld" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/status/status.java" />
-        <option value="$PROJECT_DIR$/Events.xml" />
         <option value="$PROJECT_DIR$/src/model/Task.java" />
         <option value="$PROJECT_DIR$/src/Start.java" />
         <option value="$PROJECT_DIR$/src/views/ConsoleViews.java" />
@@ -149,8 +176,9 @@
         <option value="$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlController.java" />
         <option value="$PROJECT_DIR$/src/ru/dima/views/ConsoleViews.java" />
         <option value="$PROJECT_DIR$/src/ru/dima/controllers/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/ru/dima/model/Task.java" />
         <option value="$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlAdapter.java" />
+        <option value="$PROJECT_DIR$/Events.xml" />
+        <option value="$PROJECT_DIR$/src/ru/dima/model/Task.java" />
       </list>
     </option>
   </component>
@@ -597,7 +625,7 @@
       <option name="number" value="Default" />
       <updated>1444855945822</updated>
       <workItem from="1444855948706" duration="704000" />
-      <workItem from="1444857060527" duration="9234000" />
+      <workItem from="1444857060527" duration="10316000" />
     </task>
     <task id="LOCAL-00001" summary="qwert">
       <created>1444860948554</created>
@@ -617,11 +645,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445008021998</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project hierarchy">
+      <created>1445008309913</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1445008309913</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9938000" />
+    <option name="totallyTimeSpent" value="11020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -629,18 +663,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34150326" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34150326" sideWeight="0.49394855" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -697,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Events.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="9" column="15" selection-start-line="4" selection-start-column="4" selection-end-line="9" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dima/Start.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -724,34 +750,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#598#604#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/dima/enumStatus/Status.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dima/model/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#611#612#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,16 +770,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/WorkWithXmlController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66579634">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#272#278#0" expanded="true" />
-            <element signature="method#addNewTask#0;class#WorkWithXmlAdapter#0" expanded="false" />
-            <element signature="method#deleteTask#0;class#WorkWithXmlAdapter#0" expanded="false" />
-            <element signature="method#editTask#0;class#WorkWithXmlAdapter#0" expanded="false" />
+            <element signature="e#275#281#0" expanded="true" />
+            <element signature="method#addNewTask#0;class#WorkWithXmlController#0" expanded="false" />
+            <element signature="method#deleteTask#0;class#WorkWithXmlController#0" expanded="false" />
+            <element signature="method#editTask#0;class#WorkWithXmlController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Events.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6666665">
+          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/dima/model/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#674#675#0" expanded="true" />
+            <element signature="e#707#708#0" expanded="true" />
+            <element signature="e#735#736#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+            <element signature="e#1079#1080#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1213#1214#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1335#1336#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1479#1480#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1545#1546#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1633#1634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/dima/controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.704">
+          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#598#604#0" expanded="true" />
           </folding>
         </state>
       </provider>

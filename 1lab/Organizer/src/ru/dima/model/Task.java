@@ -14,7 +14,8 @@ public class Task {
         this.status = Status.ACTIVE;
         this.name = "qwerty";
         this.descriptoin = "qwertyuio";
-        this.datetime = new Date();
+        this.endDate = new Date();
+        this.startDate = new Date();
         this.contacts = "wefwa";
     }
 
@@ -22,7 +23,8 @@ public class Task {
     private Status status;
     private String name;
     private String descriptoin;
-    private Date datetime;
+    private Date startDate;
+    private Date endDate;
     private String contacts;
 
     public int getId() {
@@ -57,12 +59,20 @@ public class Task {
         this.descriptoin = descriptoin;
     }
 
-    public Date getDatetime() {
-        return datetime;
+    public Date getStartDate() {
+        return startDate;
     }
 
-    public void setDatetime(Date datetime) {
-        this.datetime = datetime;
+    public void setStartDate(Date startDate) {
+        this.startDate = startDate;
+    }
+
+    public Date getEndDate() {
+        return endDate;
+    }
+
+    public void setEndDate(Date endDate) {
+        this.endDate = endDate;
     }
 
     public String getContacts() {
@@ -79,7 +89,8 @@ public class Task {
                 "\nstatus=" + status +
                 "\nname='" + name + '\'' +
                 "\ndescriptoin='" + descriptoin + '\'' +
-                "\ndatetime=" + datetime +
+                "\nstartDate=" + startDate +
+                "\nendtDate=" + endDate +
                 "\ncontacts='" + contacts + '\'' +
                 "\n";
     }

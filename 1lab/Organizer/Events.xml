@@ -6,7 +6,8 @@
 	<status>Состояние</status>
 	<name>Название</name>
 	<descriptoin>Описание</descriptoin>
-	<datetime>Дата и время</datetime>
+	<startDate>Дата и время начала</startDate>
+	<endDate>Дата и время завершения</endDate>
 	<contacts>Контакты</contacts>
 </event>
 </eventlist>

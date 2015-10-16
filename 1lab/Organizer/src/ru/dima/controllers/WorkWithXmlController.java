@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Created by ִלטענטי on 16.10.2015.
  */
-public class WorkWithXmlAdapter {
+public class WorkWithXmlController {
     protected List<Task> getAllTask() {
         List<Task> taskList = new ArrayList<Task>();
 
