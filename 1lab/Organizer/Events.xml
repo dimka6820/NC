@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<eventlist>
-<event>
-	<id>1</id>
-	<status>Состояние</status>
-	<name>Название</name>
-	<descriptoin>Описание</descriptoin>
-	<startDate>Дата и время начала</startDate>
-	<endDate>Дата и время завершения</endDate>
-	<contacts>Контакты</contacts>
-</event>
-</eventlist>
+
+<tasks xmlns="https://github.com/dimka6820/NC.git">
+    <task id="1">
+        <status>ACTIVE</status>
+        <name>name</name>
+        <description>desc</description>
+        <startDate>2015-01-06T16:15:00</startDate>
+        <endDate>2015-01-06T18:15:00</endDate>
+        <contacts>cont</contacts>
+    </task>
+
+    <task id="2">
+        <status>ACTIVE</status>
+        <name>Название2</name>
+        <description>Описание2</description>
+        <startDate>2015-02-06T16:15:00</startDate>
+        <endDate>2015-04-06T19:15:00</endDate>
+        <contacts>Контакты2</contacts>
+    </task>
+</tasks>

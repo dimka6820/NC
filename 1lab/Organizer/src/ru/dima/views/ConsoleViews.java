@@ -14,7 +14,7 @@ public class ConsoleViews {
 
     public void printMenu() {
         System.out.println("Enter item:\n\n" +
-                        "1. View all tasks\n" +
+                        "1. View all taskList\n" +
                         "2. Add a new task\n" +
                         "3. Finish a task\n" +
                         "4. Postponed a task"

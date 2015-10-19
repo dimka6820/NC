@@ -2,7 +2,6 @@ package ru.dima.controllers;
 
 import ru.dima.model.Task;
 import ru.dima.views.ConsoleViews;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -14,6 +13,7 @@ import java.util.Scanner;
 public class HomeController {
 
     ConsoleViews consoleViews = new ConsoleViews();
+    WorkWithXmlController workWithXmlController = new WorkWithXmlController();
 
     public void start()
     {
@@ -33,6 +33,7 @@ public class HomeController {
 
                     break breakWhile;
                 case 2:
+                    workWithXmlController.getAllTask();
                     break breakWhile;
                 case 3:
                     break breakWhile;

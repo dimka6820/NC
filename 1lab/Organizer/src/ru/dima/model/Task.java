@@ -2,29 +2,37 @@ package ru.dima.model;
 
 import ru.dima.enumStatus.Status;
 
-import javax.xml.crypto.Data;
+import javax.xml.bind.annotation.*;
 import java.util.Date;
 
 /**
  * Created by ִלטענטי on 16.10.2015.
  */
-public class Task {
-    public Task() {
-        this.id = 1;
-        this.status = Status.ACTIVE;
-        this.name = "qwerty";
-        this.descriptoin = "qwertyuio";
-        this.endDate = new Date();
-        this.startDate = new Date();
-        this.contacts = "wefwa";
-    }
 
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name="task", propOrder = {
+        "status",
+        "name",
+        "description",
+        "endDate",
+        "startDate",
+        "contacts"
+})
+public class Task {
+
+    @XmlAttribute(required = true)
     private int id;
+    @XmlElement
     private Status status;
+    @XmlElement
     private String name;
-    private String descriptoin;
+    @XmlElement
+    private String description;
+    @XmlElement
     private Date startDate;
+    @XmlElement
     private Date endDate;
+    @XmlElement
     private String contacts;
 
     public int getId() {
@@ -51,12 +59,12 @@ public class Task {
         this.name = name;
     }
 
-    public String getDescriptoin() {
-        return descriptoin;
+    public String getDescription() {
+        return description;
     }
 
-    public void setDescriptoin(String descriptoin) {
-        this.descriptoin = descriptoin;
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public Date getStartDate() {
@@ -88,7 +96,7 @@ public class Task {
         return "Task id=" + id +
                 "\nstatus=" + status +
                 "\nname='" + name + '\'' +
-                "\ndescriptoin='" + descriptoin + '\'' +
+                "\ndescriptoin='" + description + '\'' +
                 "\nstartDate=" + startDate +
                 "\nendtDate=" + endDate +
                 "\ncontacts='" + contacts + '\'' +
