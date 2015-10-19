@@ -22,7 +22,7 @@ public class WorkWithXmlController {
         }
         catch (Exception ex)
         {
-            System.out.println(ex);
+            ex.printStackTrace();
         }
 
       //  System.out.println(tasks.toString());
