@@ -9,6 +9,7 @@ import java.util.Date;
  * Created by ִלטענטי on 16.10.2015.
  */
 
+
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name="task", propOrder = {
         "status",
@@ -29,11 +30,26 @@ public class Task {
     @XmlElement
     private String description;
     @XmlElement
-    private Date startDate;
-    @XmlElement
     private Date endDate;
     @XmlElement
+    private Date startDate;
+    @XmlElement
     private String contacts;
+
+
+    public Task() {
+        super();
+    }
+
+    public Task(int id, Status status, String name, String description, Date endDate, Date startDate, String contacts) {
+        this.id = id;
+        this.status = status;
+        this.name = name;
+        this.description = description;
+        this.endDate = endDate;
+        this.startDate = startDate;
+        this.contacts = contacts;
+    }
 
     public int getId() {
         return id;
@@ -93,7 +109,7 @@ public class Task {
 
     @Override
     public String toString() {
-        return "Task id=" + id +
+        return "EventTask id=" + id +
                 "\nstatus=" + status +
                 "\nname='" + name + '\'' +
                 "\ndescriptoin='" + description + '\'' +

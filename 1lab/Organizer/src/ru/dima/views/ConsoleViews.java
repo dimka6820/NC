@@ -14,15 +14,20 @@ public class ConsoleViews {
 
     public void printMenu() {
         System.out.println("Enter item:\n\n" +
-                        "1. View all taskList\n" +
+                        "1. View all task\n" +
                         "2. Add a new task\n" +
                         "3. Finish a task\n" +
-                        "4. Postponed a task"
+                        "4. Postponed a task\n" +
+                        "5. Exit"
         );
     }
 
     public void printAllTask(List<Task> taskList) {
-        for (Task task : taskList)
-            System.out.println(task.toString());
+        for (Task item : taskList)
+            System.out.println(item.toString());
+    }
+
+    public void printError(String error) {
+        System.out.println(error);
     }
 }
