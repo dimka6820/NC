@@ -8,15 +8,7 @@
         <startDate>2015-10-20T23:00:46.443+04:00</startDate>
         <contacts>1234</contacts>
     </task>
-    <task id="1">
-        <status>ACTIVE</status>
-        <name>MyName</name>
-        <description>qwerty</description>
-        <endDate>2015-10-20T23:00:46.443+04:00</endDate>
-        <startDate>2015-10-20T23:00:46.443+04:00</startDate>
-        <contacts>1234</contacts>
-    </task>
-    <task id="1">
+    <task id="2">
         <status>ACTIVE</status>
         <name>MyName</name>
         <description>qwerty</description>

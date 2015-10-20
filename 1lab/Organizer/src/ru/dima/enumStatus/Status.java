@@ -6,7 +6,7 @@ package ru.dima.enumStatus;
 public enum Status {
     ACTIVE,
     INACTIVE,
-    DEFERRED;
+    POSTPONED;
 }
 
 

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.dima.controllers</OriginalElement>
+  <nodes>
+    <node x="-653.2619047619047" y="182.66666666666663">ru.dima.model.Task</node>
+    <node x="-573.2380952380951" y="461.1904761904761">ru.dima.enumStatus.Status</node>
+    <node x="243.7142857142857" y="221.57142857142858">ru.dima.views.ConsoleViews</node>
+    <node x="-364.0476190476188" y="48.66666666666674">ru.dima.model.Tasks</node>
+    <node x="-125.23809523809507" y="42.42857142857143">ru.dima.controllers.Adapter</node>
+    <node x="-188.99999999999994" y="176.33333333333337">ru.dima.controllers.HomeController</node>
+    <node x="-115.57142857142867" y="505.8571428571428">ru.dima.Start</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.dima.model.Task" target="ru.dima.enumStatus.Status">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers.HomeController" target="ru.dima.controllers.Adapter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers.HomeController" target="ru.dima.model.Tasks">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers.HomeController" target="ru.dima.views.ConsoleViews">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.Start" target="ru.dima.controllers.HomeController">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.model.Tasks" target="ru.dima.model.Task">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers.HomeController" target="ru.dima.model.Task">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7000000000000001" x="-71.28571428571433" y="389.4285714285714" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

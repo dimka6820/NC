@@ -13,12 +13,13 @@ public class ConsoleViews {
     }
 
     public void printMenu() {
-        System.out.println("Enter item:\n\n" +
+        System.out.println("\nEnter item:\n\n" +
                         "1. View all task\n" +
                         "2. Add a new task\n" +
-                        "3. Finish a task\n" +
-                        "4. Postponed a task\n" +
-                        "5. Exit"
+                        "3. Delete a task\n" +
+                        "4. Finish a task\n" +
+                        "5. Postpone the task\n" +
+                        "0. Exit"
         );
     }
 
@@ -29,5 +30,9 @@ public class ConsoleViews {
 
     public void printError(String error) {
         System.out.println(error);
+    }
+
+    public void print(String str) {
+        System.out.print(str);
     }
 }

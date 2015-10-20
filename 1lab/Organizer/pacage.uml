@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.dima</OriginalElement>
+  <nodes>
+    <node x="69.0" y="-75.0">ru.dima.controllers</node>
+    <node x="304.0" y="86.0">ru.dima.views</node>
+    <node x="30.0" y="120.0">ru.dima.model</node>
+    <node x="-249.0" y="-87.0">ru.dima.Start</node>
+    <node x="21.0" y="227.0">ru.dima.enumStatus</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.dima.Start" target="ru.dima.controllers">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers" target="ru.dima.controllers">
+      <point x="0.0" y="0.0" />
+      <point x="137.5" y="-100.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.model" target="ru.dima.enumStatus">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.model" target="ru.dima.model">
+      <point x="0.0" y="0.0" />
+      <point x="87.5" y="95.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers" target="ru.dima.views">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ru.dima.controllers" target="ru.dima.model">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="84.0" y="106.5" />
+  <SelectedNodes>
+    <node>ru.dima.enumStatus</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

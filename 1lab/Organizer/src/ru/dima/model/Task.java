@@ -3,6 +3,7 @@ package ru.dima.model;
 import ru.dima.enumStatus.Status;
 
 import javax.xml.bind.annotation.*;
+import java.text.DateFormat;
 import java.util.Date;
 
 /**
@@ -35,21 +36,6 @@ public class Task {
     private Date startDate;
     @XmlElement
     private String contacts;
-
-
-    public Task() {
-        super();
-    }
-
-    public Task(int id, Status status, String name, String description, Date endDate, Date startDate, String contacts) {
-        this.id = id;
-        this.status = status;
-        this.name = name;
-        this.description = description;
-        this.endDate = endDate;
-        this.startDate = startDate;
-        this.contacts = contacts;
-    }
 
     public int getId() {
         return id;
@@ -113,8 +99,8 @@ public class Task {
                 "\nstatus=" + status +
                 "\nname='" + name + '\'' +
                 "\ndescriptoin='" + description + '\'' +
-                "\nstartDate=" + startDate +
-                "\nendtDate=" + endDate +
+                "\nstartDate=" + DateFormat.getInstance().format(startDate) +
+                "\nendtDate=" + DateFormat.getInstance().format(endDate)+
                 "\ncontacts='" + contacts + '\'' +
                 "\n";
     }
