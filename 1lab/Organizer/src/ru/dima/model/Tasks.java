@@ -1,6 +1,7 @@
 package ru.dima.model;
 
 import javax.xml.bind.annotation.*;
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -9,10 +10,10 @@ import java.util.List;
 
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlRootElement(name = "tasks")
-public class Tasks {
+public class Tasks implements Serializable{
 
-    @XmlElement(name="task")
-    protected List<Task> tasks;
+    @XmlElement(name = "task")
+    private List<Task> tasks;
 
     public List<Task> getTasks() {
         return tasks;

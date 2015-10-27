@@ -3,6 +3,7 @@ package ru.dima.model;
 import ru.dima.enumStatus.Status;
 
 import javax.xml.bind.annotation.*;
+import java.io.Serializable;
 import java.text.DateFormat;
 import java.util.Date;
 
@@ -20,8 +21,7 @@ import java.util.Date;
         "startDate",
         "contacts"
 })
-public class Task {
-
+public class Task implements Serializable{
     @XmlAttribute(required = true)
     private int id;
     @XmlElement
@@ -45,12 +45,12 @@ public class Task {
         this.id = id;
     }
 
-    public Status getStatus() {
+    public synchronized Status getStatus() {
         return status;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public synchronized void setStatus(Status status) {
+            this.status = status;
     }
 
     public String getName() {

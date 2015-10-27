@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tasks>
     <task id="1">
-        <status>ACTIVE</status>
+        <status>INACTIVE</status>
         <name>MyName</name>
         <description>qwerty</description>
         <endDate>2015-10-20T23:00:46.443+04:00</endDate>
@@ -9,11 +9,27 @@
         <contacts>1234</contacts>
     </task>
     <task id="2">
-        <status>ACTIVE</status>
+        <status>POSTPONED</status>
         <name>MyName</name>
         <description>qwerty</description>
         <endDate>2015-10-20T23:00:46.443+04:00</endDate>
         <startDate>2015-10-20T23:00:46.443+04:00</startDate>
         <contacts>1234</contacts>
+    </task>
+    <task id="3">
+        <status>ACTIVE</status>
+        <name>now</name>
+        <description>123</description>
+        <endDate>2015-10-27T18:10:00+04:00</endDate>
+        <startDate>2015-10-27T19:01:14.902+04:00</startDate>
+        <contacts>123</contacts>
+    </task>
+    <task id="4">
+        <status>ACTIVE</status>
+        <name>sf</name>
+        <description>2</description>
+        <endDate>2015-10-27T19:30:00+04:00</endDate>
+        <startDate>2015-10-27T19:03:32.948+04:00</startDate>
+        <contacts>2</contacts>
     </task>
 </tasks>
