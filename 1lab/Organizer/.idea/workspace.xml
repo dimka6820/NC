@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d32cb5ef-92be-4add-9099-45d06f186975" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/dima/adapters/Adapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/dima/adapters/AdapterForSerializable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/dima/adapters/AdapterForXml.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/dima/forms/FrameForOpenXmlFile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/dima/forms/FrameNotification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ru/dima/controllers/StartController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.out" />
-      <change type="DELETED" beforePath="C:\Users\Дмитрий\Documents\GitHub\NC\1lab\Organizer\src\ru\dima\Start.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Дмитрий\Documents\GitHub\NC\1lab\Organizer\src\ru\dima\controllers\Adapter.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dima/views/ConsoleViews.java" afterPath="$PROJECT_DIR$/src/ru/dima/views/ConsoleViews.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dima/controllers/HomeController.java" afterPath="$PROJECT_DIR$/src/ru/dima/controllers/HomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dima/model/Task.java" afterPath="$PROJECT_DIR$/src/ru/dima/model/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/dima/model/Tasks.java" afterPath="$PROJECT_DIR$/src/ru/dima/model/Tasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tasks.xml" afterPath="$PROJECT_DIR$/Tasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
+    <list id="3ab037a9-6a53-4cc1-b916-e775ddee9956" name="Failed commit: Default" comment="ADD NOTIFICATION SYSTEM, BINARY save file" />
     <ignored path="Organizer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -770,7 +757,7 @@
       <workItem from="1445361263224" duration="12963000" />
       <workItem from="1445428288021" duration="9057000" />
       <workItem from="1445704925346" duration="1242000" />
-      <workItem from="1445953779719" duration="19900000" />
+      <workItem from="1445953779719" duration="19989000" />
     </task>
     <task id="LOCAL-00001" summary="qwert">
       <created>1444860948554</created>
@@ -826,11 +813,17 @@
       <option name="project" value="LOCAL" />
       <updated>1445375366249</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ADD NOTIFICATION SYSTEM, BINARY save file">
+      <created>1445984359815</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1445984359815</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78102000" />
+    <option name="totallyTimeSpent" value="78191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="-8" width="1319" height="780" extended-state="0" />
@@ -838,7 +831,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3271605" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
