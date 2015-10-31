@@ -7,7 +7,6 @@ import ru.dima.notificationSystem.NotificationSystem;
 import ru.dima.views.ConsoleViews;
 
 import javax.xml.bind.JAXBException;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -15,17 +14,17 @@ import java.util.Scanner;
 public class StartController {
 
     private static Scanner scanner = new Scanner(System.in);
+    private static ConsoleViews consoleViews = new ConsoleViews();
 
     public static void main(String[] args) {
         java.awt.Toolkit.getDefaultToolkit().beep();
 
-        ConsoleViews consoleViews = new ConsoleViews();
         Adapter adapter = null;
         Tasks model = null;
         boolean flag = true;
 
 
-        consoleViews.print("Choose download type:\n 1. XmlFile\n 2. Serialized objects\n");
+        consoleViews.printMenuDownload();
         int enter = enterInt();
         scanner = new Scanner(System.in);
 
@@ -36,7 +35,7 @@ public class StartController {
                     try {
                         model = adapter.getTask();
                     } catch (JAXBException e) {
-                        consoleViews.print("ERROR: FILE NOT FOUND\n");
+                        consoleViews.printErrorFileNotFound();
                         break;
                     } catch (ClassNotFoundException | IOException e) {
                         e.printStackTrace();
@@ -45,7 +44,7 @@ public class StartController {
                     break;
                 case 2:
                     while (true) {
-                        consoleViews.print("Enter File Name: ");
+                        consoleViews.printEnterFileName();
                         String name = scanner.nextLine();
 
                         adapter = new AdapterForSerializable(name);
@@ -56,7 +55,7 @@ public class StartController {
                         } catch (JAXBException | ClassNotFoundException e) {
                             e.printStackTrace();
                         } catch (IOException e) {
-                            consoleViews.print("ERROR: FILE NOT FOUND\n");
+                            consoleViews.printErrorFileNotFound();
                             continue;
                         }
                     }
@@ -68,8 +67,8 @@ public class StartController {
             }
         }
 
-        HomeController homeController = new HomeController(consoleViews, adapter, model);
-        NotificationSystem notificationSystem = new NotificationSystem(homeController, consoleViews);
+        NotificationSystem notificationSystem = new NotificationSystem(model);
+        HomeController homeController = new HomeController(consoleViews, adapter, model, notificationSystem);
         notificationSystem.start();
         homeController.start();
     }
@@ -80,7 +79,7 @@ public class StartController {
                 scanner = new Scanner(System.in);
                 return scanner.nextInt();
             } catch (InputMismatchException ex) {
-                System.out.println("ERROR: ENTER NUMBER");
+                consoleViews.printErrorEnterNumber();
             }
         }
     }

@@ -8,7 +8,6 @@ import ru.dima.notificationSystem.NotificationSystem;
 import ru.dima.views.ConsoleViews;
 
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.UnmarshalException;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -37,6 +36,10 @@ public class HomeController {
      */
     private Adapter adapter;
     /**
+     * Система оповещения
+     */
+    private NotificationSystem notificationSystem;
+    /**
      * Модель
      */
     private Tasks model;
@@ -50,8 +53,9 @@ public class HomeController {
      * @param adapter выбор адаптера
      * @param model выбор модели для работы
      */
-    public HomeController(ConsoleViews consoleViews, Adapter adapter, Tasks model) {
+    public HomeController(ConsoleViews consoleViews, Adapter adapter, Tasks model, NotificationSystem notificationSystem) {
         this.consoleViews = consoleViews;
+        this.notificationSystem = notificationSystem;
         scanner = new Scanner(System.in);
         this.adapter = adapter;
         this.model = model;
@@ -71,11 +75,11 @@ public class HomeController {
                     consoleViews.printAllTask(model.getTasks());
                     break;
                 case 2:
-                    if (addNewTask()) consoleViews.print("A new task is created");
+                    if (addNewTask()) consoleViews.printEventAddTask();
                     break;
                 case 3:
                     consoleViews.printAllTask(model.getTasks());
-                    consoleViews.print("Enter the task id for finish: ");
+                    consoleViews.printEnterIdForEdit();
                     editTask(enterInt());
                     break;
                 case 0:
@@ -84,7 +88,8 @@ public class HomeController {
                     } catch (JAXBException e) {
                         e.printStackTrace();
                     }
-                    NotificationSystem.flag = false;
+                    notificationSystem.interrupt();
+                    System.exit(9);
                     return;
                 default:
                     consoleViews.printErrorEnterNumberFromTo(0,3);
@@ -106,7 +111,7 @@ public class HomeController {
             switch (enterInt()) {
                 case 1:
                     if (deleteTask(editId)) {
-                        consoleViews.print("Task removed");
+                        consoleViews.printEventForRemove();
                     } else consoleViews.printErrorNonId();
                     return;
                 case 2:
@@ -181,14 +186,14 @@ public class HomeController {
         consoleViews.print("Contacts = ");
         tempTask.setContacts(enterString());
 
-        consoleViews.print("EndDateAndTime (FORMAT: dd.MM.yyyy hh:mm) = ");
+        consoleViews.printFormatDate();
         SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy hh:mm", Locale.ENGLISH);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Date date;
         try {
             date = sdf.parse(br.readLine());
         } catch (ParseException e) {
-            consoleViews.printError("ERROR: You incorrectly typed date");
+            consoleViews.printErrorForDate();
             return false;
         } catch (IOException e) {
             e.printStackTrace();
@@ -217,7 +222,7 @@ public class HomeController {
                 scanner = new Scanner(System.in);
                 return scanner.nextInt();
             } catch (InputMismatchException ex) {
-                consoleViews.printError("ERROR: ENTER NUMBER");
+                consoleViews.printErrorEnterNumber();
             }
         }
     }

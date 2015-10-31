@@ -9,7 +9,7 @@ import java.awt.*;
  * Created by ִלטענטי on 28.10.2015.
  */
 public class FrameNotification extends JFrame {
-    JTextArea textArea;
+    private JTextArea textArea;
     public FrameNotification() {
         super("Note!!!");
         textArea = new JTextArea();

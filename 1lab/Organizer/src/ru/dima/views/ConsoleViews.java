@@ -46,6 +46,10 @@ public class ConsoleViews {
         System.out.println("ENTER A NUMBER FROM " + one + " TO " + two);
     }
 
+    public void printErrorEnterNumber() {
+        System.out.println("ENTER A NUMBER");
+    }
+
     public void printError(String s) {
         System.out.println(s);
     }
@@ -63,5 +67,37 @@ public class ConsoleViews {
     public void printActiveTask(Task task, int time) {
         java.awt.Toolkit.getDefaultToolkit().beep();
         System.out.println("TASK\n" + task.getName() + "performed by " + time + "mm\n");
+    }
+
+    public void printEventAddTask() {
+        System.out.println("A new task is created");
+    }
+
+    public void printMenuDownload() {
+        System.out.println("Choose download type:\n 1. XmlFile\n 2. Serialized objects\n");
+    }
+
+    public void printEnterIdForEdit() {
+        System.out.println("Enter the task id for edit: ");
+    }
+
+    public void printEventForRemove() {
+        System.out.println("Task removed");
+    }
+
+    public void printErrorForDate() {
+        System.out.println("ERROR: You incorrectly typed date");
+    }
+
+    public void printFormatDate() {
+        System.out.println("EndDateAndTime (FORMAT: dd.MM.yyyy hh:mm) = ");
+    }
+
+    public void printErrorFileNotFound() {
+        System.out.println("ERROR: FILE NOT FOUND\n");
+    }
+
+    public void printEnterFileName() {
+        System.out.println("Enter File Name: ");
     }
 }
