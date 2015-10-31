@@ -30,6 +30,10 @@ public class Player extends User{
         else this.rate = rate;
     }
 
+    public int getRate() {
+        return rate;
+    }
+
     public int getMoney() {
         return money;
     }
