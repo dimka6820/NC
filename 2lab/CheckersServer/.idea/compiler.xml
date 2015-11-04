@@ -24,13 +24,19 @@
         <processorPath useClasspath="true" />
         <module name="2lab" />
         <module name="Checkers" />
+      </profile>
+      <profile default="false" name="Annotation profile for CheckersServer" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
         <module name="CheckersServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="2lab" target="1.5" />
       <module name="Checkers" target="1.5" />
-      <module name="CheckersServer" target="1.5" />
+      <module name="CheckersServer" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
