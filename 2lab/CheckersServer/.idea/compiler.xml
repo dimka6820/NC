@@ -24,11 +24,13 @@
         <processorPath useClasspath="true" />
         <module name="2lab" />
         <module name="Checkers" />
+        <module name="CheckersServer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="2lab" target="1.5" />
       <module name="Checkers" target="1.5" />
+      <module name="CheckersServer" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
