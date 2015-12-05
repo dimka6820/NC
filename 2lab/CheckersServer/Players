@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<players>
-    <player>
-        <ip>127.0.0.1</ip>
-        <login>123</login>
-        <points>4</points>
-    </player>
-</players>

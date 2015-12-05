@@ -1,6 +1,7 @@
 package sessions;
 
-import model.Player;
+import game.Game;
+import models.Player;
 import org.apache.log4j.Logger;
 import game.StartGame;
 import wait.WaitingClients;
@@ -19,10 +20,10 @@ public class Session extends Thread {
     private ObjectOutputStream outputStream;
     private Player player;
     private final Logger log;
-
+    private Game game;
 
     public Session(Socket socket) throws IOException {
-        log = Logger.getLogger(WaitingClients.class.getName());
+        log = Logger.getLogger(Session.class.getName());
         this.socket = socket;
         outputStream = new ObjectOutputStream(socket.getOutputStream());
         inputStream = new ObjectInputStream(socket.getInputStream());
@@ -38,18 +39,23 @@ public class Session extends Thread {
             player.setInputStream(inputStream);
             player.setOutputStream(outputStream);
             StartGame.sessions.add(this);
-
         } catch (IOException e) {
-            e.printStackTrace();
-//            log.error(e);
+            log.error(e);
         } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-//            log.error(e);
+            log.error(e);
         }
     }
 
     public Player getPlayer() {
         return player;
+    }
+
+    public Game getGame() {
+        return game;
+    }
+
+    public void setGame(Game game) {
+        this.game = game;
     }
 
     public void setPlayer(Player player) {

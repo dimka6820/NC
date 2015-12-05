@@ -37,7 +37,7 @@ public class WaitingClients extends Thread {
                 if (serverSocket != null)
                     serverSocket.close();
             } catch (IOException e) {
-                e.printStackTrace();
+               log.error(e);
             }
         }
     }

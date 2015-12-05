@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaseSchemaLocation="stud.xsd" id="1">
+    <name>Dima</name>
+    <age>20</age>
+    <gender>male</gender>
+</student>

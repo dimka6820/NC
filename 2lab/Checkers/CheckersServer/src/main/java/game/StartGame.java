@@ -1,9 +1,9 @@
 package game;
 
+import org.apache.log4j.Logger;
 import sessions.Session;
 import stasuses.Status;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -12,9 +12,11 @@ import java.util.List;
  */
 public class StartGame extends Thread {
     public static List<Session> sessions;
+    private final Logger log;
 
     public StartGame() {
         sessions = new ArrayList<Session>();
+        log = Logger.getLogger(StartGame.class.getName());
     }
 
     @Override
@@ -23,16 +25,12 @@ public class StartGame extends Thread {
             if (sessions.size() >= 2) {
                 for (int i = 0; i < sessions.size(); i += 2) {
                     if (i + 1 != sessions.size()) {
-                        try {
-                            sessions.get(i).getPlayer().setStatus(Status.GAMING);
-                            sessions.get(i+1).getPlayer().setStatus(Status.GAMING);
-                            Game game = new Game(sessions.get(i).getPlayer(), sessions.get(i+1).getPlayer());
-                            game.start();
-                            sessions.remove(i);
-                            sessions.remove(i);
-                        } catch (IOException e) {
-                            e.printStackTrace();
-                        }
+                        sessions.get(i).getPlayer().setStatus(Status.GAMING);
+                        sessions.get(i + 1).getPlayer().setStatus(Status.GAMING);
+                        new Game(sessions.get(i).getPlayer(), sessions.get(i + 1).getPlayer()).start();
+                        sessions.remove(i);
+                        sessions.remove(i);
+                        i = 0;
                     }
                 }
             }
@@ -40,7 +38,7 @@ public class StartGame extends Thread {
             try {
                 sleep(3000);
             } catch (InterruptedException e) {
-                e.printStackTrace();
+                log.error(e);
             }
         }
     }
