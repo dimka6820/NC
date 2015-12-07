@@ -38,14 +38,14 @@ public class Game extends Thread {
 
         whiteCheckers = new ArrayList<Checker>();
         blackCheckers = new ArrayList<Checker>();
-//        createCheckers();
-        whiteCheckers.add(new Checker(3, 3, true));
-        whiteCheckers.add(new Checker(5, 3, true));
-        whiteCheckers.add(new Checker(7, 5, true));
+        createCheckers();
+ //      whiteCheckers.add(new Checker(3, 3, true));
+ //      whiteCheckers.add(new Checker(5, 3, true));
+ //      whiteCheckers.add(new Checker(7, 5, true));
 
-        blackCheckers.add(new Checker(4, 4, false));
-        blackCheckers.add(new Checker(6, 6, false));
-        blackCheckers.add(new Checker(6, 8, false));
+ //      blackCheckers.add(new Checker(4, 4, false));
+ //      blackCheckers.add(new Checker(6, 6, false));
+ //      blackCheckers.add(new Checker(6, 8, false));
 
 
         currentPlayer.setMove(true);
